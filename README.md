@@ -42,6 +42,7 @@ Result:
 
 ```
 Yes, **Nothing will be printed**
+
 Why? Because ProtoLarpLang will doesn't know where to end so it will result **Nothing**.
 
 ---
