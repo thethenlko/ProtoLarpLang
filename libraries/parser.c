@@ -19,13 +19,13 @@ void parser(char word[], int point) {
 
     if (point > 0 && !fuckingerror) {
         // couldve used a switch statement but meh
-        if (issame(word, "say")) {
+        if (issame(word, "say") && currentcmd.type == CMD_NOSHIT) {
             currentcmd.type = CMD_SAY;
             if (debug) {
                printf("command: say\n");    
             }
             return;
-        } else if (issame(word, "wait")) {
+        } else if (issame(word, "wait") && currentcmd.type == CMD_NOSHIT) {
             currentcmd.type = CMD_WAIT;
             if (debug) {
                 printf("command: wait\n");
