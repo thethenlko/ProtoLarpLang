@@ -7,6 +7,9 @@ Hello! Welcome to my language named ProtoLarpLang which is made on C!
 **ProtoLarpLang** is a *simple programming language* that's was made without a goal to become a big programming language.
 I have made this project just for **fun** :) 
 Also this Project was a way to learn C
+
+
+### Files in ProtoLarpLang ends with .prll 
 ## How to code in it?
  Very **simple!**
  While writing this README, this language only 2 commands
@@ -42,7 +45,6 @@ Result:
 
 ```
 Yes, **Nothing will be printed**
-
 Why? Because ProtoLarpLang will doesn't know where to end so it will result **Nothing**.
 
 ---
@@ -69,5 +71,36 @@ Thank you!
 
 That's it!
 
+# How to use the compiler
+First of all, check **releases page** for the compiler
+**Compiler that's in releases is only for Linux so if you're on different OS (such as Windows or MacOS), you have to build it yourself.**
+
+How to use it?
+
+You have to put attach the file by using like this
+```bash
+$ ./prllc example.prll
+```
+
+# How to compile the ProtoLarpLang Compiler for different OS?
+
+**Requirements: Have gcc installed on your system AND make**
+
+1. Clone the repo: 
+```bash
+$ git clone https://github.com/thethenlko/ProtoLarpLang.git
+```
+2. Enter the directory that you copied the repo.
+3. Type:
+```bash
+$ make
+```
+4. After it compiles, you should have a file named **"prllc.exe"** or something like that.
+5. Follow the previous category that's explains how to use the prllc compiler.
+
+
+
+
 # Thank you for reading!
-Made by thethenlko (@thenlko) (also owner of protogen.name) 
+Made by thethenlko (@thenlko) (also owner of protogen.name).
+Have a great day! :D
