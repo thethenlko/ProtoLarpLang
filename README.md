@@ -8,6 +8,13 @@ Hello! Welcome to my language named ProtoLarpLang which is made on C!
 I made this project just for **fun** :) 
 Also this Project was a way to learn C
 
+---
+
+Why I chose ProtoLarpLang?
+
+Simple! **Protogen Larping Language**!
+
+---
 
 ### Files in ProtoLarpLang ends with .prll 
 ## How to code in it?
