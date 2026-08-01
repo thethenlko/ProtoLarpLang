@@ -10,9 +10,10 @@ Also this Project was a way to learn C
 
 ---
 
-Why I chose ProtoLarpLang?
+Why I chose ProtoLarpLang as for name?
 
 Simple! **Protogen Larping Language**!
+I was lazy for the name
 
 ---
 
