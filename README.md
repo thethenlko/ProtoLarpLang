@@ -80,12 +80,15 @@ Thank you!
 That's it!
 
 # How to use the compiler
+
 First of all, check **releases page** for the compiler
+
 **Compiler that's in releases is only for Linux so if you're on different OS (such as Windows or MacOS), you have to build it yourself.**
 
 How to use it?
 
 You have to put attach the file by using like this
+
 ```bash
 $ ./prllc example.prll
 ```
@@ -94,7 +97,7 @@ $ ./prllc example.prll
 
 **Requirements: Have gcc installed on your system AND make**
 
-1. Clone the repo: 
+1. Clone the repo:
 ```bash
 $ git clone https://github.com/thethenlko/ProtoLarpLang.git
 ```
