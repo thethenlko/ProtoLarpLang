@@ -52,7 +52,8 @@ Result:
 ```
 
 ```
-Yes, **Nothing will be printed**
+Yes, **Nothing will be printed**.
+
 Why? Because ProtoLarpLang will doesn't know where to end the command so it will result **Nothing**.
 
 ---
