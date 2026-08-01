@@ -42,8 +42,8 @@ void parser(char word[], int point) {
             }
             // i fucking hate this part but this shit is working???
             if (!currentcmd.isend) {
-                if (currentcmd.type == CMD_SAY && currentcmd.pointer < 299) {
-                    for (int i = 0; word[i] != '\0' && i < 299; i++) {
+                if (currentcmd.type == CMD_SAY && currentcmd.pointer < 599) {
+                    for (int i = 0; word[i] != '\0' && i < 599; i++) {
                         currentcmd.args[currentcmd.pointer] = word[i];
                         //printf("arg is %s\n", yescmd.args);
                         currentcmd.pointer++;

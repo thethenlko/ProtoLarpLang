@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 extern bool fuckingerror;
-extern char endsymbol[5];
+extern char endsymbol[];
 
 
 enum typeofcmds {
@@ -14,7 +14,7 @@ enum typeofcmds {
 
 struct rncmd {
     enum typeofcmds type;
-    char args[300];
+    char args[600];
     int iargs;
     int pointer;
     bool isend;
