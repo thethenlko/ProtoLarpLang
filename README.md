@@ -25,11 +25,11 @@ I was lazy for the name
  Very **simple!**
  While writing this README, this language has only 3 commands
  
-| Command | Purpose                                        |
-| ------- | ---------------------------------------------- |
-| say     | Prints content                                 |
-| wait    | Waits any amount of time                       |
-| set     | Makes a variable that only can contain strings |
+| Command | Purpose                  |
+| ------- | -------------------------|
+| say     | Prints content           |
+| wait    | Waits any amount of time |
+| set     | Creates string variables |
 
 ---
 
@@ -112,7 +112,7 @@ Sadly you can't use variables in "wait" command
 
 First of all, check **releases page** for the compiler
 
-**Compiler that's in releases is only for Linux so if you're on different OS (such as Windows or MacOS), you have to build it yourself.**
+**Compiler that's in the releases is only for Linux so if you're on different OS (such as Windows or MacOS), you have to build it yourself.**
 
 How to use it?
 
