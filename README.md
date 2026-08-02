@@ -18,14 +18,18 @@ I was lazy for the name
 ---
 
 ### Files in ProtoLarpLang ends with .prll 
+
+---
+
 ## How to code in it?
  Very **simple!**
- While writing this README, this language has only 2 commands
+ While writing this README, this language has only 3 commands
  
-|Command| Purpose |
-|--|--|
-| say | Prints content |
-| wait | Waits any amount of time |
+| Command | Purpose                                        |
+| ------- | ---------------------------------------------- |
+| say     | Prints content                                 |
+| wait    | Waits any amount of time                       |
+| set     | Makes a variable that only can contain strings |
 
 ---
 
@@ -80,6 +84,30 @@ Thank you!
 
 That's it!
 
+### Now, Let's make a variable!
+
+You can add variables as much do you want but make sure its not over 100
+
+To make a variable, we use **"set" command**!
+
+For example:
+```
+set message Hello World OwO
+say ~message OwO
+```
+
+Result:
+```
+Hello World
+```
+
+As you might guess too, to call a variable you have to use '~'
+
+Without it, you won't able to call a variable.
+
+Sadly you can't use variables in "wait" command
+
+---
 # How to use the compiler
 
 First of all, check **releases page** for the compiler
