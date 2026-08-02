@@ -7,3 +7,6 @@ say wait for 5 secs OwO
 wait 5 OwO
 say done waiting OwO
 say end of the example OwO
+set test this a variable OwO
+say ~test OwO
+say end of the example OwO
